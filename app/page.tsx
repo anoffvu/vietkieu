@@ -22,7 +22,7 @@ export default function Home() {
                 rel='noopener noreferrer'
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
-                Mam
+                Mắm
               </a>
               <a
                 href='https://www.banhny.com/'
@@ -30,7 +30,7 @@ export default function Home() {
                 rel='noopener noreferrer'
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
-                Banh
+                Bánh
               </a>
               <a
                 href='https://nhatrangnyc.net/'
@@ -46,7 +46,7 @@ export default function Home() {
                 rel='noopener noreferrer'
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
-                Banh by Lauren
+                Bánh by Lauren
               </a>
               <a
                 href='https://ny.eater.com/2019/7/16/19154236/banh-mi-saigon-little-italy-nyc'
@@ -54,7 +54,7 @@ export default function Home() {
                 rel='noopener noreferrer'
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
-                Banh Mi Saigon
+                Bánh Mì Saigon
               </a>
               <a
                 href='https://www.instagram.com/bebep.babykitchen/'
@@ -62,7 +62,7 @@ export default function Home() {
                 rel='noopener noreferrer'
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
-                Bé Bếp baby kitchen
+                Bé Bếp - baby kitchen
               </a>
               <a
                 href='https://www.instagram.com/vietnamemes__/'
@@ -82,7 +82,7 @@ export default function Home() {
             rel='noopener noreferrer'
             className='hover:underline hover:opacity-80 transition-opacity'
           >
-            made by An
+            made by Ân
           </a>
         </footer>
       </div>
