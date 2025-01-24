@@ -69,7 +69,7 @@ export default function Home() {
               rel='noopener noreferrer'
               className='text-2xl no-underline p-2.5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)] animate-vibrate'
             >
-              vietnamemes
+              vietnamemes (du maaaa)
             </a>
           </div>
         </div>

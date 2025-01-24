@@ -3,16 +3,24 @@ import Image from 'next/image'
 
 export default function BouncingStool() {
   const SPEED = 4 // Pixels per frame
-  const [position, setPosition] = useState({
-    x: Math.random() * (window.innerWidth - 100),
-    y: Math.random() * (window.innerHeight - 100),
-  })
-  const [velocity, setVelocity] = useState({
-    x: SPEED,
-    y: SPEED,
-  })
+  const [position, setPosition] = useState({ x: 0, y: 0 })
+  const [velocity, setVelocity] = useState({ x: SPEED, y: SPEED })
+  const [initialized, setInitialized] = useState(false)
+
+  // Initialize position after component mounts
+  useEffect(() => {
+    if (!initialized) {
+      setPosition({
+        x: Math.random() * (window.innerWidth - 100),
+        y: Math.random() * (window.innerHeight - 100),
+      })
+      setInitialized(true)
+    }
+  }, [initialized])
 
   useEffect(() => {
+    if (!initialized) return
+
     const updatePosition = () => {
       setPosition((prev) => {
         let newX = prev.x + velocity.x
@@ -40,9 +48,11 @@ export default function BouncingStool() {
 
     const interval = setInterval(updatePosition, 16)
     return () => clearInterval(interval)
-  }, [velocity])
+  }, [velocity, initialized])
 
   const handleMouseEnter = (e: React.MouseEvent) => {
+    if (!initialized) return
+
     // Calculate vector from cursor to stool center
     const stoolCenterX = position.x + 50
     const stoolCenterY = position.y + 50
@@ -67,6 +77,7 @@ export default function BouncingStool() {
         position: 'fixed',
         transform: `translate(${position.x}px, ${position.y}px)`,
         transition: 'transform 16ms linear',
+        opacity: initialized ? 1 : 0, // Hide until initialized
       }}
       onMouseEnter={handleMouseEnter}
       className='cursor-pointer'
