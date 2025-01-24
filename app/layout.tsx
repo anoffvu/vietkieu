@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Viet Kieu',
   description: 'Directory of Vietnamese businesses and creators',
+  icons: {
+    icon: '/images/icons/favicon.ico',
+    apple: '/images/icons/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({
