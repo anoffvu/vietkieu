@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viet Kieu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFFF00;
+            color: #DA251D;
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            position: relative;
+        }
+        h1 {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 96px;
+            margin: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: -3px;
+            transform: skew(-5deg);
+            text-shadow: 4px 4px 0px rgba(218, 37, 29, 0.3);
+        }
+        h2 {
+            font-size: 28px;
+            margin: 20px 0 40px;
+            font-weight: normal;
+            transform: skew(5deg);
+            text-shadow: 2px 2px 0px rgba(218, 37, 29, 0.3);
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        a {
+            color: #DA251D;
+            font-size: 28px;
+            text-decoration: none;
+            padding: 10px 20px;
+            transform: skew(-5deg);
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 300px;
+            text-shadow: 2px 2px 0px rgba(218, 37, 29, 0.3);
+        }
+        a:hover {
+            background-color: #DA251D;
+            color: #FFFF00;
+            transform: skew(5deg) scale(1.1);
+            text-shadow: 2px 2px 0px rgba(255, 255, 0, 0.3);
+        }
+        .background-text {
+            position: fixed;
+            font-size: 200px;
+            opacity: 0.1;
+            z-index: -1;
+            white-space: nowrap;
+            animation: scroll 20s linear infinite;
+            font-family: 'Archivo Black', sans-serif;
+        }
+        .background-text:nth-child(2) {
+            top: 50%;
+            animation-direction: reverse;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-text">VIET KIEU VIET KIEU VIET KIEU</div>
+    <div class="background-text">OVERSEAS VIETNAMESE</div>
+    <div class="container">
+        <h1>Việt Kiều</h1>
+        <h2>Overseas Vietnamese</h2>
+        <div class="links">
+            <a href="https://www.mamnyc.com/" target="_blank">Mam</a>
+            <a href="https://www.banhnyc.com/" target="_blank">Banh</a>
+            <a href="https://www.nhatrangone.com/" target="_blank">Nha Trang One</a>
+            <a href="https://www.banhbylauren.com/" target="_blank">Banh by Lauren</a>
+        </div>
+    </div>
+</body>
+</html>
+
