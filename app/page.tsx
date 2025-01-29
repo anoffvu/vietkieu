@@ -32,13 +32,22 @@ export default function Home() {
               >
                 Bánh
               </a>
+
               <a
-                href='https://nhatrangnyc.net/'
+                href='https://www.instagram.com/diandi.nyc'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
-                Nha Trang One
+                Đi Ăn Đi
+              </a>
+              <a
+                href='https://www.instagram.com/tenten_nyc'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+              >
+                Tènten
               </a>
               <a
                 href='https://www.banhbylauren.com/'
@@ -47,6 +56,14 @@ export default function Home() {
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bánh by Lauren
+              </a>
+              <a
+                href='https://www.instagram.com/ban__be/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+              >
+                Bạn Bè
               </a>
               <a
                 href='https://ny.eater.com/2019/7/16/19154236/banh-mi-saigon-little-italy-nyc'
@@ -63,6 +80,14 @@ export default function Home() {
                 className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bé Bếp - baby kitchen
+              </a>
+              <a
+                href='https://www.instagram.com/xin__moi'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+              >
+                Xin Mời
               </a>
               <a
                 href='https://www.instagram.com/vietnamemes__/'
