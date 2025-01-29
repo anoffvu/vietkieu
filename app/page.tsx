@@ -17,10 +17,18 @@ export default function Home() {
             </h2>
             <div className='flex flex-col items-center gap-1.5 sm:gap-3 mt-3 sm:mt-6'>
               <a
+                href='https://www.facebook.com/haidong.tran'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+              >
+                Haidong Tran (Home Cooking)
+              </a>
+              <a
                 href='https://www.instagram.com/mam.nyc'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Mắm
               </a>
@@ -28,7 +36,7 @@ export default function Home() {
                 href='https://www.banhny.com/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bánh
               </a>
@@ -37,7 +45,7 @@ export default function Home() {
                 href='https://www.instagram.com/diandi.nyc'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Đi Ăn Đi
               </a>
@@ -45,7 +53,7 @@ export default function Home() {
                 href='https://www.instagram.com/tenten_nyc'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Tènten
               </a>
@@ -53,7 +61,7 @@ export default function Home() {
                 href='https://www.banhbylauren.com/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bánh by Lauren
               </a>
@@ -61,7 +69,7 @@ export default function Home() {
                 href='https://www.instagram.com/ban__be/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bạn Bè
               </a>
@@ -69,7 +77,7 @@ export default function Home() {
                 href='https://ny.eater.com/2019/7/16/19154236/banh-mi-saigon-little-italy-nyc'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bánh Mì Saigon
               </a>
@@ -77,7 +85,7 @@ export default function Home() {
                 href='https://www.instagram.com/bebep.babykitchen/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Bé Bếp - baby kitchen
               </a>
@@ -85,7 +93,7 @@ export default function Home() {
                 href='https://www.instagram.com/xin__moi'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transform -skew-x-5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:transform hover:skew-x-5 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)]'
               >
                 Xin Mời
               </a>
@@ -93,7 +101,7 @@ export default function Home() {
                 href='https://www.instagram.com/vietnamemes__/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transition-all duration-300 ease-in-out w-full max-w-[300px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)] animate-vibrate'
+                className='text-xl sm:text-2xl no-underline p-1.5 sm:p-2.5 transition-all duration-300 ease-in-out w-full max-w-[400px] inline-block [text-shadow:3px_3px_0px_rgba(218,37,29,0.3)] hover:scale-110 hover:[text-shadow:3px_3px_0px_rgba(218,37,29,0.5)] animate-vibrate'
               >
                 vietnamemes (du maaaa)
               </a>
